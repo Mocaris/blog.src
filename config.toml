@@ -1,0 +1,53 @@
+baseURL = "http://mocaris.cn/"
+languageCode = "zh_cn"
+title = "Mocaris 博客"
+homepage = "http://mocaris.cn/"
+theme = "maupassant"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "tools"
+    name = "工具"
+    url = "/tools/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+
+
+
+[[params.links]]
+  title = "Mocaris的博客"
+  name = "Mocaris的博客"
+  url = "https://github.com/Mocaris"
+
+[params]
+  beian = "粤ICP备XXXXXXX号-1"
+  localSearch = true
+
+[author]
+  name = "Mocaris"
+  homepage = "https://github.com/Mocaris"
+
+# If porting an existing theme
+[original]
+  name = "pagecho"
+  homepage = "https://chopstack.com/"
+  repo = "https://github.com/pagecho/maupassant"
+
+## 配置代码高亮
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
